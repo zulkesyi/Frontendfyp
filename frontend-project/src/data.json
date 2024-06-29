@@ -3,12 +3,24 @@
         "id": 1,
         "name": "Ahmad",
         "email": "Ahmad@gmail.com",
-        "phone": "012295608"
+        "phone": "0122956508"
     },
     {
         "id": 2,
         "name": "Izz",
         "email": "Izz@gmail.com",
         "phone": "0122993040"
+    },
+    {
+        "id": 3,
+        "name": "Firdaus",
+        "email": "fir@gmail.com",
+        "phone": "0197546421"
+    },
+    {
+        "id": 4,
+        "name": "Zul",
+        "email": "zul@gmail.com",
+        "phone": "0137775458"
     }
 ]

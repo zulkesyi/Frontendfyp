@@ -3,11 +3,13 @@ import Data from './data.json';
 import './Table.css';
 
 function Table(){
+    
     const [data, setData] = useState(Data)
     const [editState, setEditState] = useState(-1)
     return (
         <div className='tableWrap'>
             <div>
+            <h2>USER DATA INFORMATION</h2>
                 <AddMember setData={setData}/>
                 <form onSubmit={handleUpdate}>
                 <table>
@@ -96,7 +98,7 @@ function AddMember({setData}) {
         const email = event.target.elements.email.value;
         const phone = event.target.elements.phone.value;
         const newMember = {
-            id: 3,
+            id: 6,
             name,
             email,
             phone,
